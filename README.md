@@ -21,7 +21,7 @@ API REST desarrollada en Node.js que consume datos financieros desde una API ext
 1. Clonar el repositorio:
 
 ```bash
-git clone <tu-repo-url>
+git clone https://github.com/julianagomez21/backend-test.git
 cd backend-test
 ```
 
