@@ -4,7 +4,7 @@ require("dotenv").config();
 const app = require("./app");
 const { AppDataSource } = require("./data/data-source");
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 AppDataSource.initialize()
   .then(() => {
